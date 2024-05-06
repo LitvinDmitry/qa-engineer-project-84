@@ -1,61 +1,104 @@
 ---
-test-cases:
 - summary: |
-    Успешный поиск товара по ключевому слову
+    Поиск товара по ключевому слову
+  status: pass
+
+- summary: |
+    Поиск товара по категории
+  status: pass
+
+- summary: |
+    Проверка фильтрации товара по цене
+  status: fail
+     
+- summary: |
+    Проверка фильтрации товара по бренду
+  status: pass
+    
+- summary: |
+    Проверка фильтрации товаров по нескольким брендам
+  status: pass
+
+- summary: |
+    Поиск товаров по наличию
+  status: pass
+  
+- summary: |
+    Проверка открытия карточки товара
+  status: pass
+
+- summary: |
+    Проверка открытия изображений в карточке товара
   status: fail
 
 - summary: |
-    Успешный поиск товара по категории
-  status: pass
-
-- summary: |
-    Успешный поиск товара по цене
-  status: fail
-
-- summary: |
-    Успешный поиск товара по бренду
-  status: pass
-
-- summary: |
-    Успешный поиск товаров по нескольким брендам
-  status: pass
-
-- summary: |
-    Успешный поиск товаров по наличию
-  status: pass
-
-- summary: |
-    Успешный поиск товаров по отсутствию в наличии
-  status: fail
-
-- summary: |
-    Неуспешный поиск товара по ключевому слову
-  status: fail
-
-- summary: |
-    Успешный просмотр товаров на главной странице магазина
-  status: pass
-
-- summary: |
-    Успешный просмотр карточки товара
-  status: fail
-
-- summary: |
-    Успешный просмотр сайта в условиях 3g интернета
-  status: pass
-
-- summary: |
-    Проверка оптимизации приложения
-  status: fail
-
-- summary: |
-    Неуспешная попытка открыть сайт по протоколу http
-  status: pass
-
-- summary: |
-    Неуспешная попытка XSS запроса
+    Открытие сайта с медленным интернетом 3g
   status: pass
 
 - summary: |
     Проверка наличия мобильной версии приложения
   status: fail
+
+- summary: |
+    Проверка кроссбраузерности
+  status: pass
+
+- summary: |
+    Проверка невозможности добавить в корзину больше товаров чем есть в наличие 
+  status: pass
+
+- summary: |
+    Проверка оформления заказа
+  status: pass
+
+- summary: |
+    Проверка закрытия окна заказа тапом на крестик
+  status: fail
+
+- summary: |
+    Проверка закрытия окна заказа тапом на Сlose
+  status: pass
+
+- summary: |
+    Проверка поиска по хештегу из карточки товара
+  status: fail
+
+- summary: |
+    Проверка удаления товаров из корзины кнопкой Delete
+  status: pass
+  
+- summary: |
+   Проверка работы кнопок Previous и Next
+  status: pass
+
+- summary: |
+   Проверка работы кнопки Store
+  status: pass
+
+- summary: |
+   Проверка работы кнопки Cart
+  status: pass
+
+- summary: |
+   Проверка работы кнопки Language
+  status: pass
+
+- summary: |
+   Проверка работы кнопки Clear cart
+  status: pass
+
+- summary: |
+   Проверка работы кнопки Continue shopping
+  status: pass
+
+- summary: |
+   Проверка переключения языка на Русский
+  status: fail
+
+- summary: |
+   Проверка работы кнопки Add to cart в карточке товара
+  status: pass
+
+- summary: |
+   Проверка открытия карточки товара из корзины
+  status: pass
