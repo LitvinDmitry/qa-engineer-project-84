@@ -69,7 +69,7 @@ test-cases:
   status: pass
 
 - summary: |
-  Проверка удаления товаров из корзины кнопкой Delete
+   Проверка удаления товаров из корзины кнопкой Delete
   status: pass
   
 - summary: |
